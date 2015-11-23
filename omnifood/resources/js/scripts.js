@@ -82,11 +82,20 @@ $(document).ready(function () {
     
     /* Maps */
     
-    new GMaps({
+   var map = new GMaps({
       div: '.map',
-      lat: -12.043333,
-      lng: -77.028333
+      lat: 34.0237169,
+      lng: -118.4212141,
+        zoom: 12
     });
     
+    map.addMarker({
+      lat: 34.0352706,
+      lng: -118.4804481,
+      title: 'HQ',
+      infoWindow: {
+        content:'<p>Our Santa Monica HQ</p>'
+      }
+    });
     
 });
