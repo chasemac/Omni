@@ -571,7 +571,7 @@ input[type=checkbox] {
     width: 50%;
     top: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.81);
+    background: rgba(255, 255, 255, 0.87);
     z-index: 10;
     height: 560px;
     padding-top: 40px;
